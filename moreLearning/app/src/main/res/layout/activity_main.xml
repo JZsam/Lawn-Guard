@@ -14,4 +14,12 @@
         android:text="Ha lets go to the next page!!!!!"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="341dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="376dp"
+        android:layout_height="271dp"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="43dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
