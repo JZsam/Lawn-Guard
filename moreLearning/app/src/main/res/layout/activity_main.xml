@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -11,15 +10,11 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="508dp"
         android:backgroundTint="#00FF0000"
-        android:text="Ha lets go to the next page!!!!!"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="508dp" />
-
-    <WebView
-        android:layout_width="404dp"
-        android:layout_height="410dp"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="-7dp" />
+        android:text="@string/ha_lets_go_to_the_next_page"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
