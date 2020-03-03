@@ -11,15 +11,15 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#00FF0000"
         android:text="Ha lets go to the next page!!!!!"
         tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteY="508dp" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="376dp"
-        android:layout_height="271dp"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="43dp" />
+    <WebView
+        android:layout_width="404dp"
+        android:layout_height="410dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
